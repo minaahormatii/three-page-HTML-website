@@ -1,0 +1,84 @@
+.hero {
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.hero video {
+  z-index: 1;
+  width: 60%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text p {
+  font-size: 24px;
+}
+
+#shop {
+  color: white;
+  padding: 5px 8px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: aliceblue;
+  border: blanchedalmond;
+  border-radius: 50px;
+}
+
+#gallery {
+  color: white;
+  padding: 5px 8px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: aliceblue;
+  border: blanchedalmond;
+  border-radius: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 150px;
+}
+
+main h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+main h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+main h2 {
+  font-size: 30px;
+  margin-bottom: 70px;
+  text-align: center;
+}
